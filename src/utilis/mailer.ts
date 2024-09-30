@@ -38,7 +38,7 @@ export const sendEmail = async ({
     });
 
     const mailOptions = {
-      from: "hitesh@gmail.com",
+      from: "workTime@gmail.com",
       to: email,
       subject:
         emailType === "VERIFY" ? "Verify your email" : "Reset your password",
